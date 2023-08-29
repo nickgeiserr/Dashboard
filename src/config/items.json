@@ -1,0 +1,60 @@
+{
+    "items": {
+        "Finances": {
+            "title": "Finances",
+            "description": "Manage your ACYU Finances",
+            "path": "/finances",
+            "section": "membership",
+            "requiredKeys": "Verified",
+            "discouragingKeys": ""
+        },
+        "managemembers": {
+            "title": "Manage Members",
+            "description": "Manage the ACYU Members",
+            "path": "/manage/members",
+            "section": "membership",
+            "requiredKeys": "Verified,BoardMember,DuesPaid",
+            "discouragingKeys": ""
+        },
+        "applications": {
+            "title": "Application Manager",
+            "description": "Manage ACYU Applications",
+            "path": "/applications",
+            "section": "membership",
+            "requiredKeys": "President,Verified,DuesPaid",
+            "discouragingKeys": ""
+        },
+        "profile": {
+            "title": "Profile",
+            "description": "View your Profile",
+            "path": "/profile",
+            "section": "membership",
+            "requiredKeys": "Verified",
+            "discouragingKeys": ""
+        },
+        "joinchapter": {
+            "title": "Join Chapter",
+            "description": "Apply for a chapter",
+            "path": "/joinchapter",
+            "section": "chapter",
+            "requiredKeys": "Verified,DuesPaid",
+            "discouragingKeys": "InChapter"
+        },
+        "createchapter": {
+            "title": "Create Chapter",
+            "description": "Create an ACYU Chapter",
+            "path": "/createchapter",
+            "section": "chapter",
+            "requiredKeys": "Verified,DuesPaid",
+            "discouragingKeys": "InChapter"
+        },
+        "signout": {
+            "title": "Sign Out",
+            "description": "Return to the Login Screen",
+            "path": "/signout",
+            "section": "membership",
+            "requiredKeys": "",
+            "discouragingKeys": ""
+        }
+    }
+}
