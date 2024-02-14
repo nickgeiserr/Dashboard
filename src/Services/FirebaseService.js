@@ -2,13 +2,6 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC-_IwD2cHRzCUiVOLE23o7JHvGrHne0YU",
-  authDomain: "the-acyu-global.firebaseapp.com",
-  projectId: "the-acyu-global",
-  storageBucket: "the-acyu-global.appspot.com",
-  messagingSenderId: "822035355747",
-  appId: "1:822035355747:web:6867c6ad995298a8828056",
-  measurementId: "G-YWB529SZTM"
 };
 
 const app = firebase.initializeApp(firebaseConfig);
